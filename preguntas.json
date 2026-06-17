@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "audio": "audios/01.ogg",
+        "opciones": ["3", "5", "4", "-3"],
+        "correcta": "3"
+    },
+    {
+        "id": 2,
+         "audio": "audios/02.ogg",
+        "opciones": ["7", "10", "-10", "1"],
+        "correcta": "-10"
+    },
+    {
+        "id": 3,
+         "audio": "audios/03.ogg",
+        "opciones": ["-5", "-4", "4", "6"],
+        "correcta": "4"
+    },
+    {
+        "id": 4,
+         "audio": "audios/04.ogg",
+        "opciones": ["-1", "-2", "1", "9"],
+        "correcta": "-1"
+    },
+    {
+        "id": 5,
+         "audio": "audios/05.ogg",
+        "opciones": ["-1", "-2", "1", "4"],
+        "correcta": "4"
+    },
+ {
+        "id": 6,
+         "audio": "audios/06.ogg",
+        "opciones": ["49", "23", "5", "15"],
+        "correcta": "23"
+    }
+
+
+]

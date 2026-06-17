@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío Matemático Auditivo</title>
+
+    <style>
+body{
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg,#667eea,#764ba2);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.contenedor{
+    width:90%;
+    max-width:800px;
+    background:white;
+    border-radius:25px;
+    padding:40px;
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
+}
+
+h1{
+    color:#4c51bf;
+    margin-bottom:10px;
+    font-size:2.2rem;
+}
+
+#progreso{
+    color:#666;
+    font-size:1rem;
+    margin-bottom:25px;
+}
+
+audio{
+    width:100%;
+    margin-bottom:30px;
+}
+
+.opcion{
+    display:block;
+    background:#f7f8fc;
+    border:2px solid transparent;
+    border-radius:15px;
+    padding:18px;
+    margin:12px 0;
+    font-size:1.2rem;
+    cursor:pointer;
+    transition:.3s;
+    text-align:left;
+}
+
+.opcion:hover{
+    background:#e8ebff;
+    border-color:#667eea;
+    transform:translateY(-2px);
+}
+
+.opcion input{
+    margin-right:10px;
+    transform:scale(1.2);
+}
+
+#btnResponder,
+#btnSiguiente{
+    border:none;
+    border-radius:15px;
+    padding:15px 30px;
+    font-size:1.1rem;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:20px;
+    transition:.3s;
+}
+
+#btnResponder{
+    background:#667eea;
+    color:white;
+}
+
+#btnResponder:hover{
+    background:#5563d8;
+}
+
+#btnSiguiente{
+    background:#10b981;
+    color:white;
+    display:none;
+}
+
+#btnSiguiente:hover{
+    background:#059669;
+}
+
+#mensaje{
+    margin-top:25px;
+    min-height:40px;
+    font-size:1.6rem;
+    font-weight:bold;
+}
+
+.correcto{
+    color:#10b981;
+}
+
+.incorrecto{
+    color:#ef4444;
+}
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <h1>🎧 Desafío Matemático</h1>
+
+        <div id="progreso">
+            Pregunta 1 de 36
+        </div>
+
+        <audio id="audioPregunta" controls>
+            <source src="" type="audio/mpeg">
+            Tu navegador no soporta audio.
+        </audio>
+
+        <form id="formPregunta">
+
+            <label class="opcion">
+                <input type="radio" name="respuesta" value="A">
+                12
+            </label>
+
+            <label class="opcion">
+                <input type="radio" name="respuesta" value="B">
+                13
+            </label>
+
+            <label class="opcion">
+                <input type="radio" name="respuesta" value="C">
+                14
+            </label>
+
+            <label class="opcion">
+                <input type="radio" name="respuesta" value="D">
+                15
+            </label>
+
+        </form>
+
+        <button id="btnResponder">
+            Responder
+        </button>
+
+        <div id="mensaje"></div>
+
+        <button id="btnSiguiente">
+            Siguiente →
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
