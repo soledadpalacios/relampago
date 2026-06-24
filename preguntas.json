@@ -76,5 +76,27 @@
     "audio": "audios/13.ogg",
     "opciones": ["44", "-14", "14", "20"],
     "correcta": "-14"
+  },
+
+  {
+    "id": 14,
+    "audio": "audios/14.ogg",
+    "opciones": ["84", "-50", "14", "1"],
+    "correcta": "84"
+  },
+
+  {
+    "id": 15,
+    "audio": "audios/15.ogg",
+    "opciones": ["2", "-9", "-3", "9"],
+    "correcta": "-3"
+  },
+
+  {
+    "id": 16,
+    "audio": "audios/16.ogg",
+    "opciones": ["96", "39", "14", "20"],
+    "correcta": "39"
   }
+
 ]
