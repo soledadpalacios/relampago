@@ -36,5 +36,49 @@
         "correcta": "23"
     }
 
+  {
+         "id": 7,
+          "audio": "audios/07.ogg",
+         "opciones": ["42", "23", "0", "22"],
+         "correcta": "42"
+     }
+ {
+        "id": 8,
+         "audio": "audios/08.ogg",
+        "opciones": ["3", "5", "2", "8"],
+        "correcta": "2"
+    }
+    {
+           "id": 9,
+            "audio": "audios/09.ogg",
+           "opciones": ["-33", "-30", "30", "8"],
+           "correcta": "-30"
+       }
+   {
+          "id": 10,
+           "audio": "audios/10.ogg",
+          "opciones": ["-20", "-30", "10", "20"],
+          "correcta": "-20"
+      }
+      {
+             "id": 11,
+              "audio": "audios/11.ogg",
+             "opciones": ["-20", "-30", "10", "20"],
+             "correcta": "-20"
+         }
+         {
+                "id": 12,
+                 "audio": "audios/12.ogg",
+                "opciones": ["44", "20", "-44", "20"],
+                "correcta": "44"
+            }
+
+            {
+                   "id": 13,
+                    "audio": "audios/13.ogg",
+                   "opciones": ["44", "-14", "14", "20"],
+                   "correcta": "-14"
+               }
+
 
 ]
